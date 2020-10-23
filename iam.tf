@@ -1,5 +1,5 @@
 resource "aws_iam_role" "bigdevbox-terraform" {
-  name        = "bigdevbox"
+  name        = "bigdevbox-admin"
   description = "Default Admin IAM Role for bigdevbox instances"
 
   assume_role_policy = <<EOF

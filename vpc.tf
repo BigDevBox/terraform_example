@@ -15,7 +15,7 @@ module "bigdevbox_sg" {
 module "bigdevbox_vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
-  name = "bigdevbox-terraform"
+  name = "bigdevbox-vpc"
 
   cidr = "10.255.0.0/20"
 
@@ -31,6 +31,6 @@ module "bigdevbox_vpc" {
   }
 
   vpc_tags = {
-    Name = "bigdevbox-terraform"
+    Name = "bigdevbox-vpc"
   }
 }
