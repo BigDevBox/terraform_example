@@ -19,7 +19,7 @@ module "bigdevbox_vpc" {
 
   cidr = "10.255.0.0/20"
 
-  azs            = ["us-east-2a", "us-east-2b", "us-east-2c"]
+  azs            = ["us-west-2a", "us-west-2b", "us-west-2c"]
   public_subnets = ["10.255.0.0/24", "10.255.1.0/24", "10.255.2.0/24"]
 
   enable_ipv6        = false
