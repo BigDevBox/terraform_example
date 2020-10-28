@@ -28,6 +28,6 @@ resource "aws_iam_role_policy_attachment" "bigdevbox-terraform-admin-attachment"
 }
 
 resource "aws_iam_instance_profile" "bigdevbox-terraform-admin" {
-  name = "bigdevbox-terraform-admin"
+  name = "bigdevbox-admin"
   role = aws_iam_role.bigdevbox-terraform.name
 }
